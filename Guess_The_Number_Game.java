@@ -4,7 +4,7 @@ public class Guess_The_Number_Game {
 
 
         public static void guessNum(int num){
-            Scanner Sc = new Scanner(System.in);
+            Scanner Sc = new Scanner(System.in); // for input
             int guess =0;
             int tries =10;
             while(tries!=0){
@@ -26,7 +26,7 @@ public class Guess_The_Number_Game {
             }
         }
         public static void main(String[] args){
-            // Generating randow number to guess
+            // Generating random number to guess
             int num = (int)(Math.random()*100);
 
             guessNum(num);
